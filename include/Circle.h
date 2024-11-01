@@ -37,7 +37,7 @@ public:
      * @brief bar stuff
      */
     template <typename T>
-    void bar(T value = T(), const char* name = "default") {}
+    void bar(Shape& s, T value = T(), const char* name = "default") {}
 
 
     void foo(Test t) {}

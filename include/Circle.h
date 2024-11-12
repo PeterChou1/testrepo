@@ -57,3 +57,7 @@ double circumference(double radius);
 double diameter(double radius);
 
 
+namespace ShapeName 
+{
+    int shapeCircleFunction() { return 0; };
+}

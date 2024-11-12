@@ -35,7 +35,7 @@ public:
      *
      * @return double The perimeter of the rectangle.
      */
-    double perimeter() const override;
+    double perimeter() const final override;
 
     double width_; ///< Width of the rectangle.
     double height_; ///< Height of the rectangle.
@@ -136,3 +136,8 @@ double diagonal(double width, double height);
  */
 double aspect_ratio(double width, double height);
 
+
+namespace ShapeName 
+{
+    int shapeRectangleFunction() { return 0; };   
+}

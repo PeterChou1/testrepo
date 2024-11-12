@@ -46,6 +46,8 @@ public:
 };
 
 
+
+
 /**
  * @brief Helper function to calculate the factorial of a number.
  */
@@ -85,3 +87,8 @@ enum Vegetables {
   /// Comment 3
   Carrot
 };
+
+namespace ShapeName 
+{
+    int shapeCalculatorFunction() { return 0; };
+}

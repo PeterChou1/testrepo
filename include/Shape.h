@@ -37,3 +37,9 @@ public:
  * @brief Helper function to calculate the sum of the areas of two shapes.
  */
 double sum_of_areas(const Shape& shape1, const Shape& shape2);
+
+
+namespace ShapeName 
+{
+    int shapeShapeFunction() { return 0; };
+}
